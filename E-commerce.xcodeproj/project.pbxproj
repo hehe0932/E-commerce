@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BBA55901FA039AF000A2C65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA558F1FA039AF000A2C65 /* AppDelegate.m */; };
+		4BBA55931FA039AF000A2C65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA55921FA039AF000A2C65 /* ViewController.m */; };
+		4BBA55981FA039AF000A2C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBA55971FA039AF000A2C65 /* Assets.xcassets */; };
+		4BBA559B1FA039AF000A2C65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBA55991FA039AF000A2C65 /* LaunchScreen.storyboard */; };
+		4BBA559E1FA039AF000A2C65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA559D1FA039AF000A2C65 /* main.m */; };
+		8C9E188E618F9107C3DE6B3A /* libPods-E-commerce.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A80D942A77340F3E917A64 /* libPods-E-commerce.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41E7F937AF39A72FD4351AE7 /* Pods-E-commerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-commerce.release.xcconfig"; path = "Pods/Target Support Files/Pods-E-commerce/Pods-E-commerce.release.xcconfig"; sourceTree = "<group>"; };
+		4BBA558B1FA039AF000A2C65 /* E-commerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-commerce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BBA558E1FA039AF000A2C65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BBA558F1FA039AF000A2C65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BBA55911FA039AF000A2C65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4BBA55921FA039AF000A2C65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4BBA55971FA039AF000A2C65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BBA559A1FA039AF000A2C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BBA559C1FA039AF000A2C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BBA559D1FA039AF000A2C65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4A80D942A77340F3E917A64 /* libPods-E-commerce.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-E-commerce.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04D48F192EE5CCEAC396800 /* Pods-E-commerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-commerce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-E-commerce/Pods-E-commerce.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BBA55881FA039AF000A2C65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9E188E618F9107C3DE6B3A /* libPods-E-commerce.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BBA55821FA039AF000A2C65 = {
+			isa = PBXGroup;
+			children = (
+				4BBA558D1FA039AF000A2C65 /* E-commerce */,
+				4BBA558C1FA039AF000A2C65 /* Products */,
+				982470B67954AEFB38A84821 /* Pods */,
+				BAD6AB404D282A137105C3B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BBA558C1FA039AF000A2C65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BBA558B1FA039AF000A2C65 /* E-commerce.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BBA558D1FA039AF000A2C65 /* E-commerce */ = {
+			isa = PBXGroup;
+			children = (
+				4BBA558E1FA039AF000A2C65 /* AppDelegate.h */,
+				4BBA558F1FA039AF000A2C65 /* AppDelegate.m */,
+				4BBA55911FA039AF000A2C65 /* ViewController.h */,
+				4BBA55921FA039AF000A2C65 /* ViewController.m */,
+				4BBA55971FA039AF000A2C65 /* Assets.xcassets */,
+				4BBA55991FA039AF000A2C65 /* LaunchScreen.storyboard */,
+				4BBA559C1FA039AF000A2C65 /* Info.plist */,
+				4BBA559D1FA039AF000A2C65 /* main.m */,
+			);
+			path = "E-commerce";
+			sourceTree = "<group>";
+		};
+		982470B67954AEFB38A84821 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F04D48F192EE5CCEAC396800 /* Pods-E-commerce.debug.xcconfig */,
+				41E7F937AF39A72FD4351AE7 /* Pods-E-commerce.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BAD6AB404D282A137105C3B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4A80D942A77340F3E917A64 /* libPods-E-commerce.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BBA558A1FA039AF000A2C65 /* E-commerce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BBA55A11FA039AF000A2C65 /* Build configuration list for PBXNativeTarget "E-commerce" */;
+			buildPhases = (
+				F26F039872F0D62B42FD5198 /* [CP] Check Pods Manifest.lock */,
+				4BBA55871FA039AF000A2C65 /* Sources */,
+				4BBA55881FA039AF000A2C65 /* Frameworks */,
+				4BBA55891FA039AF000A2C65 /* Resources */,
+				A7E642FEF02CD172ED220B2C /* [CP] Embed Pods Frameworks */,
+				FF2B422B5FFA02ADBA561D8F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E-commerce";
+			productName = "E-commerce";
+			productReference = 4BBA558B1FA039AF000A2C65 /* E-commerce.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BBA55831FA039AF000A2C65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = chenlishuang;
+				TargetAttributes = {
+					4BBA558A1FA039AF000A2C65 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4BBA55861FA039AF000A2C65 /* Build configuration list for PBXProject "E-commerce" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BBA55821FA039AF000A2C65;
+			productRefGroup = 4BBA558C1FA039AF000A2C65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BBA558A1FA039AF000A2C65 /* E-commerce */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BBA55891FA039AF000A2C65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBA559B1FA039AF000A2C65 /* LaunchScreen.storyboard in Resources */,
+				4BBA55981FA039AF000A2C65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7E642FEF02CD172ED220B2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-E-commerce/Pods-E-commerce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F26F039872F0D62B42FD5198 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-E-commerce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF2B422B5FFA02ADBA561D8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-E-commerce/Pods-E-commerce-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-E-commerce/Pods-E-commerce-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BBA55871FA039AF000A2C65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBA55931FA039AF000A2C65 /* ViewController.m in Sources */,
+				4BBA559E1FA039AF000A2C65 /* main.m in Sources */,
+				4BBA55901FA039AF000A2C65 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BBA55991FA039AF000A2C65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BBA559A1FA039AF000A2C65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BBA559F1FA039AF000A2C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4BBA55A01FA039AF000A2C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BBA55A21FA039AF000A2C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04D48F192EE5CCEAC396800 /* Pods-E-commerce.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HW7TW2FYE8;
+				INFOPLIST_FILE = "E-commerce/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.E-commerce";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4BBA55A31FA039AF000A2C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E7F937AF39A72FD4351AE7 /* Pods-E-commerce.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HW7TW2FYE8;
+				INFOPLIST_FILE = "E-commerce/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.E-commerce";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BBA55861FA039AF000A2C65 /* Build configuration list for PBXProject "E-commerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BBA559F1FA039AF000A2C65 /* Debug */,
+				4BBA55A01FA039AF000A2C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BBA55A11FA039AF000A2C65 /* Build configuration list for PBXNativeTarget "E-commerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BBA55A21FA039AF000A2C65 /* Debug */,
+				4BBA55A31FA039AF000A2C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BBA55831FA039AF000A2C65 /* Project object */;
+}
