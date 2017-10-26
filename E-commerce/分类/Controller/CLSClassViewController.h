@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CLSClassViewController.h
 //  E-commerce
 //
 //  Created by chenlishuang on 2017/10/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CLSClassViewController : UIViewController
 
 @end
-
